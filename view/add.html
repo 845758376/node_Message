@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>发表留言</title>
+		<link rel="stylesheet" href="../public/css/bootstrap.css" />
+	</head>
+
+	<body>
+		<div class="header container">
+			<div id="" class="page-header">
+				<h1><a href="./">首页</a> <small>发布留言</small></h1>
+			</div>
+		</div>
+		<div class="comments container">
+			<form action="/doadd" method="post">
+				<div class="form-group">
+					<label for="input_name"></label>
+					<input type="text" class="form-control" required="required" name="name" placeholder="请写你的姓名" />
+				</div>
+				<div class="form-group">
+					<label for="textarcea_message">留言内容</label>
+					<textarea class="form-control" name="content" cols="30" rows="10" required="required" minlength="5" maxlength="10"></textarea>
+				</div>
+				<button class="btn btn-default" type="submit">提交</button>
+			</form>
+		</div>
+
+	</body>
+
+</html>
