@@ -6,16 +6,16 @@ var querystring = require('querystring')
 
 //创立留言数据类型
 var msgs = [{
-	name: '张二',
-	content: "你好我是张二",
+	name: '张三',
+	content: "你好我是张三",
 	create_at: '2017-11-14 10:30:32'
 }, {
-	name: '李三',
-	content: "你好我是李三",
+	name: '李四',
+	content: "你好我是李四",
 	create_at: '2017-11-14 10:30:33'
 }, {
-	name: '王四',
-	content: "你好我是王四",
+	name: '王五',
+	content: "你好我是王五",
 	create_at: '2017-11-14 10:30:40'
 }]
 
